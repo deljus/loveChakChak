@@ -1,0 +1,6 @@
+{
+  "workbench.browser.dataStorage": "global",
+  "workbench.browser.openLocalhostLinks": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true
+}
