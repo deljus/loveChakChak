@@ -45,7 +45,7 @@ export async function createOrderAction(
       revalidatePath("/");
 
       return { error: null };
-    } catch (e) {
+    } catch (e: unknown) {
       return { error: "Что то пошло не так" };
     }
   }
